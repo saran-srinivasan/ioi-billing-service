@@ -1,0 +1,33 @@
+.main-container{
+    display: grid;
+    grid-template:  "navbar navbar" 10%
+                    "menu bill" 80%
+                    "footer footer" 10%;
+    grid-template-columns: 70% 30%;
+    height: 100vh;
+}
+
+.navBar-container{
+    background-color: lightgray;
+    border: 1px solid black;
+    grid-row: navbar / navbar;
+    grid-column: 1 / 3;
+}
+.main-menu-container{
+    background-color: lightblue;
+    border: 1px solid black;
+    grid-row: bill / bill;
+    grid-column: bill / bill;
+}
+.bill-container{
+    background-color: lightgreen;
+    border: 1px solid black;
+    grid-row: menu / menu;
+    grid-column: menu / menu;
+}
+.footer-container{
+    background-color: lightgray;
+    border: 1px solid black;
+    grid-row: footer / footer;
+    grid-column: 1 / 3;
+}
