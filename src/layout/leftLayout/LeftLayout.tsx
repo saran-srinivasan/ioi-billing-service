@@ -1,8 +1,12 @@
 import React from 'react'
+import CheckoutPage from '../../components/CheckoutPage/CheckoutPage'
 
 const LeftLayout = () => {
   return (
-    <div>LeftLayout</div>
+    <div>
+      <p>The Cart</p>
+      <CheckoutPage />
+    </div>
   )
 }
 

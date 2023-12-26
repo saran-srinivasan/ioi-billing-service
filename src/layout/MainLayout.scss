@@ -18,14 +18,17 @@
     border: 1px solid black;
     grid-row: bill / bill;
     grid-column: bill / bill;
+    min-height: 0;
 }
 .bill-container{
     background-color: lightgreen;
     border: 1px solid black;
     grid-row: menu / menu;
     grid-column: menu / menu;
+    min-height: 0;
 }
 .footer-container{
+    position: static;
     background-color: lightgray;
     border: 1px solid black;
     grid-row: footer / footer;
